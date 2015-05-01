@@ -1,0 +1,29 @@
+{
+  "name": "flummox-isomorphic-example",
+  "version": "1.0.0",
+  "description": "A simple example of a fully isomorphic application built with React, Flummox and Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "author": "Jack Callister",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^5.2.2",
+    "express": "^4.12.3",
+    "flummox": "^4.0.0-alpha",
+    "jade": "^1.9.2",
+    "node-jsx": "^0.13.3",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "babel-core": "^5.2.2",
+    "babel-loader": "^5.0.0",
+    "jsx-loader": "^0.13.2",
+    "react": "^0.13.2",
+    "webpack": "^1.8.11"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
